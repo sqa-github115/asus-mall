@@ -1,0 +1,366 @@
+a {
+	display: inline-block;
+	color: #666;
+}
+
+a:focus {
+	outline-style: none;
+	-moz-outline-style: none;
+}
+
+.header_banner {
+	overflow: hidden;
+}
+
+.header_banner img {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.topbar {
+	background-color: #404040;
+	color: #b2b2b2;
+}
+
+.fast-bar {
+	float: left;
+	height: 40px;
+}
+
+.fast-bar a {
+	font-size: 14px;
+	color: #b2b2b2;
+	margin: 0 10px;
+	line-height: 40px;
+}
+
+.fast-bar a:hover {
+	color: #FFFFFF;
+}
+
+.topbar ul a {
+	color: #b2b2b2;
+}
+
+.topbar li {
+	position: relative;
+	float: left;
+	line-height: 40px;
+	font-size: 14px;
+	margin-left: 10px;
+	padding: 0 10px;
+}
+
+.topbar li a:hover {
+	color: #FFFFFF;
+}
+
+.topbar li:nth-child(1) a {
+	margin: 0 10px;
+}
+
+.register_popover {
+	background-color: #ef430c;
+	color: #fff;
+	padding: 0 12px;
+	position: absolute;
+	border-radius: 3px;
+	z-index: 99;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	left: 28px;
+	width: 100px;
+}
+
+.register_popover:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-top-color: #ef430c;
+	position: absolute;
+	left: 56%;
+	top: 0;
+	transform: rotate(180deg);
+	margin-top: -12px;
+	margin-left: -10px;
+}
+
+.topbar .cart {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: url(../img/cart_icon.png) no-repeat;
+	display: inline-block;
+	left: 15px;
+	top: 5px;
+}
+
+.topbar ul li:nth-child(4) a {
+	background: #b2b2b245;
+	width: 80px;
+	padding-left: 35px;
+	height: 40px;
+}
+
+.topbar ul li:nth-child(4) {
+	padding-right: 0;
+}
+
+.topbar ul li:nth-child(4) a:hover {
+	color: #b2b2b2;
+
+}
+
+.header_main {
+	padding-top: 25px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.nav .menu li {
+	font-size: 15px;
+	float: left;
+	line-height: 20px;
+	padding: 20px 20px 35px;
+}
+
+.nav .menu li a {
+	color: #333;
+}
+
+.list {
+	width: 100%;
+	position: absolute;
+	padding-top: 10px;
+	background: #FFFFFF;
+	z-index: 99999;
+	left: 0;
+	top: 90px
+}
+
+.list {
+	display: none;
+}
+
+.itm dd {
+	padding-top: 10px;
+	height: 70px;
+	width: 70px;
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	padding-bottom: 10px;
+}
+
+.itm1 dd {
+	height: 130px;
+	width: 190px;
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+.itm1 p img {
+	height: 130px;
+	width: 190px;
+}
+
+.itm2 dd {
+	padding-top: 10px;
+	height: 70px;
+	width: 150px;
+	text-align: center;
+	margin-left: 104px;
+	padding-bottom: 10px;
+}
+
+.search {
+	float: right;
+}
+
+.searchbar {
+	position: relative;
+	padding-right: 37px;
+	box-sizing: border-box;
+}
+
+.search_input {
+	width: 300px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	border: 1px solid #a29e9f;
+	border-right: none;
+	padding: 0 0 0 4px;
+	outline: none;
+}
+
+.search_btn {
+	background: #FFFFFF;
+	border: 1px solid #a29e9f;
+	outline: none;
+	line-height: 38px;
+	width: 38px;
+	text-align: center;
+	position: absolute;
+}
+
+.search_btn span {
+	line-height: 38px;
+}
+
+.search_hint {
+	background: #d9d9d9;
+	position: absolute;
+	top: 8px;
+	left: 230px;
+	color: #353535;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+#search_hots {
+	margin-top: 5px;
+	color: #000000;
+}
+
+#search_hots a {
+	padding: 0 10px;
+}
+
+.pic {
+	text-align: center;
+	width: 100%;
+	background: #021A36;
+}
+
+.ig1 img {
+	margin: 0 auto;
+	display: block;
+}
+
+
+/* 服务 */
+#service {
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #9C9C9C;
+	padding-bottom: 20px;
+	color: #000000;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+#service ul {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#service ul li {
+	float: left;
+	border-right: 1px solid #ccc;
+	height: 28px;
+	width: 240px;
+}
+
+#service ul li:nth-child(5) {
+	border: none;
+}
+
+#service ul li .icon {
+	display: inline-block;
+	width: 30px;
+	height: 28px;
+	vertical-align: middle;
+	background: url(../img/ia_900000293.png) no-repeat;
+}
+
+.casualty img {
+	vertical-align: middle;
+}
+
+#service ul .full .icon {
+	background-position: 0 -60px;
+}
+
+#service ul .overdue .icon {
+	background-position: 0 -90px;
+}
+
+#service ul .support .icon {
+	background-position: 0 -120px;
+}
+
+/* footer */
+#footer {
+	background: #FAFAFA;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	font-size: 14px;
+}
+
+.foot_list {
+	float: left;
+}
+
+.foot_list dt:nth-child(1) {
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #000000;
+}
+
+.foot_list:nth-child(1) {
+	margin-right: 10px;
+	width: 180px;
+}
+
+.foot_list:nth-child(2) {
+	margin-right: 50px;
+	width: 195px;
+}
+
+.foot_list:nth-child(3) {
+	margin-right: 50px;
+	width: 195px;
+}
+
+.foot_list:nth-child(4) {
+	margin-right: 50px;
+	width: 195px;
+}
+
+.foot_list:nth-child(5) {
+	text-align: center;
+}
+
+.foot_list .phone {
+	font-size: 35px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.foot_list .download {
+	color: white;
+	width: 100px;
+	background: #000000;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+/* 版权 */
+#copyright {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.record {
+	padding: 20px 0;
+}
+
+.record img {
+	vertical-align: middle;
+}

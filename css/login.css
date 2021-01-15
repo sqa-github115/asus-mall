@@ -1,0 +1,275 @@
+.header {
+	width: 100%;
+}
+
+.header a {
+	width: 100%;
+}
+
+a:focus {
+	outline-style: none;
+	-moz-outline-style: none;
+}
+
+.header img {
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+
+#pass {
+	background-color: #fdbf58;
+	min-height: 800px;
+}
+
+.pass-main {
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.login-tlt {
+	background-color: white;
+	width: 380px;
+	margin-left: 50px;
+	min-height: 300px;
+	padding: 15px;
+	position: relative;
+}
+
+.sign-tltle {
+	font-size: 24px;
+	padding: 0;
+	border-bottom: none;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	height: 44px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 290px;
+}
+
+#page-sign {
+	padding: 0 15px;
+}
+
+.sign-tltle a {
+	margin: 0 3px;
+}
+
+i {
+	background: #ccc;
+	width: 2px;
+	height: 20px;
+	display: inline-block;
+}
+
+.jump-page {
+	position: absolute;
+	width: 50%;
+	right: 15px;
+	top: 15px;
+}
+
+.msg-txt {
+	font-size: 12px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	border: 1px solid #fdbf58;
+	padding: 3px 11px;
+	background: #fdffb7;
+	color: #00bbff;
+	height: 16px;
+	line-height: 16px;
+}
+
+.msg-txt img {
+	vertical-align: middle;
+}
+
+.msg-pic {
+	float: right;
+}
+
+.fill-in input {
+	outline: none;
+	padding-left: 12px;
+	padding-right: 0;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	width: 336px;
+	color: #262626;
+}
+
+.fill-in input:nth-child(1) {
+	margin-bottom: 16px;
+}
+
+
+.fill-in span {
+	display: inline-block;
+	font-size: 12px;
+	color: #008aff;
+	line-height: 1;
+	margin-top: -10px;
+	margin-bottom: 10px
+}
+
+.fill-in {
+	display: block;
+	position: relative;
+}
+
+#register {
+	margin-top: 10px;
+}
+
+.fill-in #card {
+	width: 80px;
+	height: 27px;
+	margin: 0;
+}
+
+.fill-in .card-box {
+	width: 80px;
+	border: 0.5px solid #B2B2B2;
+	height: 31px;
+	outline: none;
+	text-align: center;
+}
+
+.fill-in #confirm {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	vertical-align: sub;
+}
+
+.fill-in label {
+	display: block;
+	line-height: 50px;
+	font-size: 14px;
+	border: none;
+	text-align: center;
+	background: #00BBFF;
+	color: white;
+}
+
+.forget {
+	font-size: 15px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.other-way {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	min-height: 50px;
+	border-top: 1px solid #ccc;
+	position: relative;
+	font-size: 14px;
+	text-align: center;
+}
+
+.other-way span {
+	font-size: 14px;
+	display: inline-block;
+	color: #000000;
+}
+
+.sp1 {
+	width: 210px;
+	position: absolute;
+	top: -3px;
+	left: 70px;
+	background: white;
+}
+
+.other-way img {
+	display: block;
+	margin: 10px auto;
+}
+
+
+.login-tlt1 {
+	background-color: white;
+	width: 380px;
+	margin-left: 50px;
+	min-height: 300px;
+	padding: 15px;
+	position: relative;
+	display: none;
+}
+
+.signUp {
+	font-size: 24px;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.switch {
+	position: absolute;
+	width: 50%;
+	right: 15px;
+	top: 15px;
+}
+
+.switch-txt {
+	font-size: 12px;
+	position: absolute;
+	left: -10px;
+	top: 0px;
+	border: 1px solid #fdbf58;
+	padding: 3px 11px;
+	background: #fdffb7;
+	color: #00bbff;
+	height: 16px;
+	line-height: 16px;
+	float: left;
+}
+
+.switch-txt img {
+	vertical-align: middle;
+}
+
+.switch-pic {
+	float: right;
+}
+
+.scan img {
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.scan-title {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.scan-title img {
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+
+.writing {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.other-bottom {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+.other-bottom img {
+	display: block;
+}
